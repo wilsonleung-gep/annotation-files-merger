@@ -1,0 +1,194 @@
+body {
+    margin: auto;
+    width: 960px;
+    font: 14px/1.4 'PT Sans','DejaVu Sans','Bitstream Vera Sans',sans-serif;
+}
+
+em {
+  font-style:italic;
+}
+
+#hd {
+  background-color: #990000;
+  font-size: 116%;
+  padding: 0.5em 1em;
+  color: #FFF;
+}
+
+#bd {
+	background-color: #ffffff;
+	padding: 1em;
+}
+
+#ft {
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	font-size: 116%;
+	text-align: center;
+	background-color: #990000;
+	color: #FFF;
+}
+
+#ft a {
+    color: #FFF;
+}
+
+.release {
+  margin-top: 0.2em;
+  text-align: right;
+}
+
+.message {
+  padding: 1em 2em;
+  width: 800px;
+  margin: auto;
+  border-radius: 15px;
+  border: 2px solid #CCC;
+  margin-bottom: 1em;
+}
+
+.success {
+  background-color: #84A655;
+}
+
+.warning {
+  background-color: #F2A55E !important;
+}
+
+.error {
+  background-color: #AF433F;
+  color: #FFF;
+}
+
+.hidden {
+  display:none;
+}
+
+form.simpleform  {
+    padding-bottom: 1em;
+}
+
+form.simpleform ol {
+    padding-left: 0.5em;
+}
+
+form.simpleform ol li {
+    padding: 0.3em;
+}
+
+form.simpleform label {
+  margin-right: 1em;
+}
+
+form.simpleform fieldset {
+  margin: 1em 0;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  padding: 0.5em;
+}
+
+button .cancel-button {
+  background-color:#E30202;
+}
+
+#uploaderContainer {
+  margin-top: 1em;
+}
+
+#fileListDDmessage {
+  margin: 1em 0;
+  background-color: #CCC;
+  color: black;
+  padding: 1em;
+  border: 2px solid gray;
+}
+
+#fileListDDmessage.highlightRegion {
+  background-color: lightgreen;
+}
+
+#filelist {
+  margin-top: 1em;
+}
+
+#uploadFilesButtonContainer,
+#selectFilesButtonContainer,
+#overallProgress {
+  display: inline-block;
+}
+
+#overallProgress {
+    float: right;
+}
+
+caption, th {
+    text-align: left;
+}
+
+caption {
+  font-style: italic;
+}
+
+th {
+    background: none repeat scroll 0 0 #990000;
+    border-bottom: 0 none;
+    border-top: 0 none;
+    color: #FFF;
+    font-weight: bold;
+    line-height: 1.3;
+    white-space: nowrap;
+}
+
+td, th {
+    border: 1px solid gray;
+    padding: 5px 12px;
+    vertical-align: top;
+}
+
+.module {
+  margin: 1em;
+  padding: 1em;
+  background-color: #FFF;
+  color: black;
+  border: 2px solid gray;
+  border-radius: 8px;
+}
+
+.module h1,
+.module h2 {
+  font-weight: bold;
+}
+
+.module h1 {
+  margin-bottom: 1em;
+  font-size: 116%;
+}
+
+.module h2 {
+  font-size: 108%;
+}
+
+.module p {
+  margin: 0.5em 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-right: 10px;
+}
+
+.showTrackButton-container {
+  margin: 1em 1em 0 0;
+}
+
+table.checklistTable tr.Warn {
+  background-color: #FFB630;
+}
+
+table.checklistTable tr.Fail {
+  background-color: #F08080;
+}
